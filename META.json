@@ -47,6 +47,17 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.0001"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Csson/p5-Task-MapMetro-Dev/issues"
+      },
+      "homepage" : "https://github.com/Csson/p5-Task-MapMetro-Dev",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/Csson/p5-Task-MapMetro-Dev.git",
+         "web" : "https://github.com/Csson/p5-Task-MapMetro-Dev"
+      }
+   },
+   "version" : "0.1000"
 }
 

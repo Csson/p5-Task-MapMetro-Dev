@@ -4,7 +4,7 @@ Task::MapMetro::Dev - Everything useful when developing Map::Metro maps
 
 # VERSION
 
-version 0.0001
+version 0.1000
 
 # SYNOPSIS
 
