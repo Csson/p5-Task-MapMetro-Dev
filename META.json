@@ -1,0 +1,52 @@
+{
+   "abstract" : "Everything useful when developing Map::Metro maps",
+   "author" : [
+      "Erik Carlsson <info@code301.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Task-MapMetro-Dev",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.039"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::EOL" : "0",
+            "Test::More" : "0",
+            "Test::Pod" : "1.41"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Dist::Zilla" : "5.000",
+            "Dist::Zilla::MintingProfile::MapMetro::Map" : "0.1200",
+            "Dist::Zilla::Plugin::MapMetro::MakeGraphViz" : "0.1100",
+            "GraphViz2" : "2.20",
+            "Map::Metro" : "0.2002"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.0001"
+}
+

@@ -1,28 +1,51 @@
 package Task::MapMetro::Dev;
 
-use strict;
-use warnings;
-use 5.10.1;
-
+# VERSION
 
 1;
+
+# ABSTRACT: Everything useful when developing Map::Metro maps
 
 __END__
 
 =encoding utf-8
 
-=head1 NAME
-
-Task::MapMetro::Dev - Short intro
-
 =head1 SYNOPSIS
 
-  use Task::MapMetro::Dev;
+	# install graphviz.
+	# eg:
+	$ sudo apt-get install graphviz
 
-=head1 DESCRIPTION
+	# and then
+    $ cpanm Task::MapMetro::Dev
 
-Task::MapMetro::Dev is ...
+=pkgroup
+
+=pkg Map::Metro 0.2002
+
+=pkg GraphViz2 2.20
+
+=pkg Dist::Zilla 5.000
+
+=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1200
+
+=pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1100
 
 =head1 SEE ALSO
+
+L<Map::Metro>
+
+=head1 AUTHOR
+
+Erik Carlsson E<lt>info@code301.comE<gt>
+
+=head1 COPYRIGHT
+
+Copyright 2015 - Erik Carlsson
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut
