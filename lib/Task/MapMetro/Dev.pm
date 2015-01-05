@@ -12,11 +12,11 @@ __END__
 
 =head1 SYNOPSIS
 
-	# install graphviz.
-	# eg:
-	$ sudo apt-get install graphviz
+    # install graphviz.
+    # eg:
+    $ sudo apt-get install graphviz
 
-	# and then
+    # and then
     $ cpanm Task::MapMetro::Dev
 
 =pkgroup
@@ -31,9 +31,13 @@ __END__
 
 =pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1100
 
+=pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod
+
 =head1 SEE ALSO
 
 L<Map::Metro>
+
+L<Task::MapMetro::Maps>
 
 =head1 AUTHOR
 

@@ -4,15 +4,15 @@ Task::MapMetro::Dev - Everything useful when developing Map::Metro maps
 
 # VERSION
 
-version 0.1000
+version 0.1001
 
 # SYNOPSIS
 
-        # install graphviz.
-        # eg:
-        $ sudo apt-get install graphviz
+    # install graphviz.
+    # eg:
+    $ sudo apt-get install graphviz
 
-        # and then
+    # and then
     $ cpanm Task::MapMetro::Dev
 
 # TASK CONTENTS
@@ -29,9 +29,13 @@ version 0.1000
 
 ### [Dist::Zilla::Plugin::MapMetro::MakeGraphViz](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeGraphViz) 0.1100
 
+### [Dist::Zilla::Plugin::MapMetro::MakeLinePod](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeLinePod)
+
 # SEE ALSO
 
 [Map::Metro](https://metacpan.org/pod/Map::Metro)
+
+[Task::MapMetro::Maps](https://metacpan.org/pod/Task::MapMetro::Maps)
 
 # AUTHOR
 

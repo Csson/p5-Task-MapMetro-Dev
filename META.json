@@ -41,6 +41,7 @@
             "Dist::Zilla" : "5.000",
             "Dist::Zilla::MintingProfile::MapMetro::Map" : "0.1200",
             "Dist::Zilla::Plugin::MapMetro::MakeGraphViz" : "0.1100",
+            "Dist::Zilla::Plugin::MapMetro::MakeLinePod" : "0",
             "GraphViz2" : "2.20",
             "Map::Metro" : "0.2002"
          }
@@ -58,6 +59,6 @@
          "web" : "https://github.com/Csson/p5-Task-MapMetro-Dev"
       }
    },
-   "version" : "0.1000"
+   "version" : "0.1001"
 }
 
