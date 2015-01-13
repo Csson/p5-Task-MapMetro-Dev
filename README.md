@@ -19,36 +19,23 @@ version 0.1001
 
 ## 
 
-### [Map::Metro](https://metacpan.org/pod/Map::Metro) 0.2002
-
 ### [GraphViz2](https://metacpan.org/pod/GraphViz2) 2.20
 
 ### [Dist::Zilla](https://metacpan.org/pod/Dist::Zilla) 5.000
 
-### [Dist::Zilla::MintingProfile::MapMetro::Map](https://metacpan.org/pod/Dist::Zilla::MintingProfile::MapMetro::Map) 0.1200
+### [Map::Metro](https://metacpan.org/pod/Map::Metro) 0.2203
+
+### [Dist::Zilla::MintingProfile::MapMetro::Map](https://metacpan.org/pod/Dist::Zilla::MintingProfile::MapMetro::Map) 0.1400
 
 ### [Dist::Zilla::Plugin::MapMetro::MakeGraphViz](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeGraphViz) 0.1100
 
-### [Dist::Zilla::Plugin::MapMetro::MakeLinePod](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeLinePod)
+### [Dist::Zilla::Plugin::MapMetro::MakeLinePod](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeLinePod) 0.1200
 
 # SEE ALSO
 
 [Map::Metro](https://metacpan.org/pod/Map::Metro)
 
 [Task::MapMetro::Maps](https://metacpan.org/pod/Task::MapMetro::Maps)
-
-# AUTHOR
-
-Erik Carlsson <info@code301.com>
-
-# COPYRIGHT
-
-Copyright 2015 - Erik Carlsson
-
-# LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 # AUTHOR
 

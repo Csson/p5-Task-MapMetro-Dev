@@ -31,19 +31,17 @@
       },
       "develop" : {
          "requires" : {
-            "Test::EOL" : "0",
-            "Test::More" : "0",
             "Test::Pod" : "1.41"
          }
       },
       "runtime" : {
          "requires" : {
             "Dist::Zilla" : "5.000",
-            "Dist::Zilla::MintingProfile::MapMetro::Map" : "0.1200",
+            "Dist::Zilla::MintingProfile::MapMetro::Map" : "0.1400",
             "Dist::Zilla::Plugin::MapMetro::MakeGraphViz" : "0.1100",
-            "Dist::Zilla::Plugin::MapMetro::MakeLinePod" : "0",
+            "Dist::Zilla::Plugin::MapMetro::MakeLinePod" : "0.1200",
             "GraphViz2" : "2.20",
-            "Map::Metro" : "0.2002"
+            "Map::Metro" : "0.2203"
          }
       }
    },
@@ -52,7 +50,7 @@
       "bugtracker" : {
          "web" : "https://github.com/Csson/p5-Task-MapMetro-Dev/issues"
       },
-      "homepage" : "https://github.com/Csson/p5-Task-MapMetro-Dev",
+      "homepage" : "https://metacpan.org/release/Task-MapMetro-Dev",
       "repository" : {
          "type" : "git",
          "url" : "https://github.com/Csson/p5-Task-MapMetro-Dev.git",

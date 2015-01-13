@@ -21,35 +21,22 @@ __END__
 
 =pkgroup
 
-=pkg Map::Metro 0.2002
-
 =pkg GraphViz2 2.20
 
 =pkg Dist::Zilla 5.000
 
-=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1200
+=pkg Map::Metro 0.2203
+
+=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1400
 
 =pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1100
 
-=pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod
+=pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod 0.1200
 
 =head1 SEE ALSO
 
 L<Map::Metro>
 
 L<Task::MapMetro::Maps>
-
-=head1 AUTHOR
-
-Erik Carlsson E<lt>info@code301.comE<gt>
-
-=head1 COPYRIGHT
-
-Copyright 2015 - Erik Carlsson
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut
