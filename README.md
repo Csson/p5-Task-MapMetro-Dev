@@ -25,7 +25,7 @@ version 0.1001
 
 ### [Map::Metro](https://metacpan.org/pod/Map::Metro) 0.2203
 
-### [Dist::Zilla::MintingProfile::MapMetro::Map](https://metacpan.org/pod/Dist::Zilla::MintingProfile::MapMetro::Map) 0.1400
+### [Dist::Zilla::MintingProfile::MapMetro::Map](https://metacpan.org/pod/Dist::Zilla::MintingProfile::MapMetro::Map) 0.1401
 
 ### [Dist::Zilla::Plugin::MapMetro::MakeGraphViz](https://metacpan.org/pod/Dist::Zilla::Plugin::MapMetro::MakeGraphViz) 0.1100
 

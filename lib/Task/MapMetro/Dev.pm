@@ -27,7 +27,7 @@ __END__
 
 =pkg Map::Metro 0.2203
 
-=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1400
+=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1401
 
 =pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1100
 
