@@ -25,13 +25,13 @@ __END__
 
 =pkg Dist::Zilla 5.000
 
-=pkg Map::Metro 0.2203
+=pkg Map::Metro 0.2206
 
-=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1401
+=pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1402
 
-=pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1100
+=pkg Dist::Zilla::Plugin::MapMetro::MakeGraphViz 0.1101
 
-=pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod 0.1200
+=pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod 0.1201
 
 =head1 SEE ALSO
 
