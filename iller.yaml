@@ -11,7 +11,7 @@ prereqs:
 
 plugins:
   - +config: Author::CSSON
-    task: 1
+    is_task: 1
     travis_perl: 16
 
 ---

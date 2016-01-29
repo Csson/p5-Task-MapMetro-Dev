@@ -7,9 +7,11 @@ Revision history for Task-MapMetro-Dev
 
  [Documentation]
 
- [Enhancements]
+ [Task Contents]
+  - Bumped Map::Metro to 0.2300.
 
- [Meta]
+ [Other Changes]
+  - Rebuilt with dzil plugins in Dist::Iller::Config::Author::CSSON.
 
  [New Features]
 

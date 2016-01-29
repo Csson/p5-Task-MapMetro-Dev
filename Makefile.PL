@@ -7,7 +7,7 @@ use 5.016000;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Everything useful when developing Map::Metro maps",
+  "ABSTRACT" => "Useful stuff when developing Map::Metro maps",
   "AUTHOR" => "Erik Carlsson <info\@code301.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
@@ -16,7 +16,14 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.016000",
   "NAME" => "Task::MapMetro::Dev",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Dist::Zilla" => "5.000",
+    "Dist::Zilla::MintingProfile::MapMetro::Map" => "0.1402",
+    "Dist::Zilla::Plugin::MapMetro::MakeGraphViz" => "0.1101",
+    "Dist::Zilla::Plugin::MapMetro::MakeLinePod" => "0.1201",
+    "GraphViz2" => "2.20",
+    "Map::Metro" => "0.2300"
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
@@ -32,10 +39,16 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Dist::Zilla" => "5.000",
+  "Dist::Zilla::MintingProfile::MapMetro::Map" => "0.1402",
+  "Dist::Zilla::Plugin::MapMetro::MakeGraphViz" => "0.1101",
+  "Dist::Zilla::Plugin::MapMetro::MakeLinePod" => "0.1201",
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "GraphViz2" => "2.20",
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
+  "Map::Metro" => "0.2300",
   "Test::More" => "0.96"
 );
 
