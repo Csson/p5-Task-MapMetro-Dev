@@ -12,7 +12,17 @@ prereqs:
 plugins:
   - +config: Author::CSSON
     is_task: 1
-    travis_perl: 16
+    travis_perl_min: 16
+
+  - +extend_plugin: TravisYML
+    post_before_install:
+     - cpanm Test::Stream --verbose --force
+     - cpanm File::Slurp --verbose --force
+     - cpanm Pod::Coverage::TrustPod --verbose --force
+     - sudo apt-get update -qq
+     - sudo apt-get install -y graphviz
+    pre_install:
+     - cpanm GraphViz2
 
 ---
 doctype: weaver
