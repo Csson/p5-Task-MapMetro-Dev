@@ -1,0 +1,27 @@
+---
+doctype: dist
+
+header:
+  name: Task-MapMetro-Dev
+
+prereqs:
+  runtime:
+    requires:
+     - perl: 5.016000
+
+plugins:
+  - +config: Author::CSSON
+    task: 1
+    travis_perl: 16
+
+---
+doctype: weaver
+
+plugins:
+  - +config: Author::CSSON
+
+  - +replace_plugin: Badges
+    formats: html, markdown
+    badge:
+     - perl
+     - travis
