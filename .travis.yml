@@ -14,12 +14,12 @@ before_install:
    - perl -V
    - git config --global user.name "TravisCI"
    - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
+   - cpanm Pod::Coverage::TrustPod --verbose --force
    - cpanm autobox::Junctions --verbose --force
    - cpanm XML::Bare --verbose --force
    - cpanm Test::Modern --verbose --force
    - cpanm Test::Stream --verbose --force
    - cpanm File::Slurp --verbose --force
-   - cpanm Pod::Coverage::TrustPod --verbose --force
    - sudo apt-get update -qq
    - sudo apt-get install -y graphviz
 install:
