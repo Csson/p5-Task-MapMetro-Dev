@@ -1,10 +1,14 @@
+use 5.16.0;
+use strict;
+use warnings;
+
 package Task::MapMetro::Dev;
 
 # VERSION
+# ABSTRACT: Useful stuff when developing Map::Metro maps
 
 1;
 
-# ABSTRACT: Everything useful when developing Map::Metro maps
 
 __END__
 
@@ -25,7 +29,7 @@ __END__
 
 =pkg Dist::Zilla 5.000
 
-=pkg Map::Metro 0.2206
+=pkg Map::Metro 0.2300
 
 =pkg Dist::Zilla::MintingProfile::MapMetro::Map 0.1402
 
@@ -34,8 +38,6 @@ __END__
 =pkg Dist::Zilla::Plugin::MapMetro::MakeLinePod 0.1201
 
 =head1 SEE ALSO
-
-L<Map::Metro>
 
 L<Task::MapMetro::Maps>
 
