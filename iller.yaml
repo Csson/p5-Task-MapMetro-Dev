@@ -40,4 +40,3 @@ plugins:
     formats: html, markdown
     badge:
      - perl
-     - travis

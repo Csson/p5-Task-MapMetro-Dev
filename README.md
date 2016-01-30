@@ -2,7 +2,7 @@
 
 Task::MapMetro::Dev - Useful stuff when developing Map::Metro maps
 
-![Requires Perl 5.16+](https://img.shields.io/badge/perl-5.16+-brightgreen.svg) [![Travis status](https://api.travis-ci.org/Csson/p5-Task-MapMetro-Dev.svg?branch=master)](https://travis-ci.org/Csson/p5-Task-MapMetro-Dev)
+![Requires Perl 5.16+](https://img.shields.io/badge/perl-5.16+-brightgreen.svg)
 
 # VERSION
 
