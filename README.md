@@ -6,7 +6,7 @@ Task::MapMetro::Dev - Useful stuff when developing Map::Metro maps
 
 # VERSION
 
-Version 0.1201, released 2016-01-29.
+Version 0.1201, released 2016-01-30.
 
 # TASK CONTENTS
 

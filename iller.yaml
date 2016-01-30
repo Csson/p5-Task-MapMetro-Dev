@@ -16,6 +16,9 @@ plugins:
 
   - +extend_plugin: TravisYML
     post_before_install:
+     - cpanm Test::NoTabs
+     - cpanm Pod::Spell
+     - cpanm Test::Spelling
      - cpanm Pod::Coverage::TrustPod --verbose --force
      - cpanm autobox::Junctions --verbose --force
      - cpanm XML::Bare --verbose --force
